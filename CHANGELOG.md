@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/wmfs/lerna-sync/compare/v1.0.0...v1.1.0) (2019-01-25)
+
+
+### ✨ Features
+
+* Fix linting. ([60acc7d](https://github.com/wmfs/lerna-sync/commit/60acc7d))
+* Handle a few more loose ends. ([0ebc96a](https://github.com/wmfs/lerna-sync/commit/0ebc96a))
+
 # 1.0.0 (2019-01-24)
 
 
