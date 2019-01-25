@@ -1,5 +1,7 @@
 # lerna-sync
 
+[![Build Status](https://travis-ci.com/wmfs/lerna-sync.svg?branch=master)](https://travis-ci.com/wmfs/lerna-sync)
+
 A package to synchronize distributed repos inside a Lerna monorepo.
 
 # Environment variables
