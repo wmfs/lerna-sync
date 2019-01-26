@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/wmfs/lerna-sync/compare/v1.1.0...v1.2.0) (2019-01-26)
+
+
+### ✨ Features
+
+* Analyze dev-dependencies as well, when offering next-step advice. ([1a2dda2](https://github.com/wmfs/lerna-sync/commit/1a2dda2))
+
+
+### 📚 Documentation
+
+* add travis badge ([2a5fad2](https://github.com/wmfs/lerna-sync/commit/2a5fad2))
+
 # [1.1.0](https://github.com/wmfs/lerna-sync/compare/v1.0.0...v1.1.0) (2019-01-25)
 
 
