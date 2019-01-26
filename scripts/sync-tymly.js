@@ -16,7 +16,8 @@ async function main () {
             ['package', 'packages'],
             ['plugin', 'plugins'],
             ['blueprint', 'blueprints'],
-            ['cardscript', 'cardscript']
+            ['cardscript', 'cardscript'],
+            ['app', 'apps']
           ]
           if (gitHubPackageObj.hasOwnProperty('keywords') && gitHubPackageObj.keywords.indexOf('tymly') !== -1) {
             let lernaPackageName = null
