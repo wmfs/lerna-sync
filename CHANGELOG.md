@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wmfs/lerna-sync/compare/v1.2.0...v1.3.0) (2019-01-27)
+
+
+### ✨ Features
+
+* Remove output of clone command. ([8ac4090](https://github.com/wmfs/lerna-sync/commit/8ac4090))
+
 # [1.2.0](https://github.com/wmfs/lerna-sync/compare/v1.1.0...v1.2.0) (2019-01-26)
 
 
