@@ -59,15 +59,18 @@ Also, you might like to take advantage of Lerna's support for multiple-package d
 In **lerna-sync** this filtering/routing can be achieved via a simple Javascript function. Here's an example:
 
 ``` javascript
+// Here we use look at the keywords array in the repo's package.json
+// to decide which monorepo package directory (if any) it should belong.
+
 function (gitHubPackageObj) {
-  if (gitHubPackageObj) {
-    const keywordToPackageMap = [
-      ['package', 'packages'],
-      ['plugin', 'plugins'],
-      ['blueprint', 'blueprints'],
-      ['cardscript', 'cardscript'],
-      ['app', 'apps']
-    ]
+  // [string-in-keywords, monorepo-directory-name]
+  const keywordToPackageMap = [
+    ['package', 'packages'],
+    ['plugin', 'plugins'],
+    ['blueprint', 'blueprints'],
+    ['cardscript', 'cardscript'],
+    ['app', 'apps']
+  ]
   if (gitHubPackageObj.hasOwnProperty('keywords') && gitHubPackageObj.keywords.indexOf('tymly') !== -1) {
     let lernaPackageName = null
     const keywords = gitHubPackageObj.keywords
