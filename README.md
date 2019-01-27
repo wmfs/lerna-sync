@@ -10,7 +10,7 @@ A package to synchronize distributed GitHub repos inside a Lerna monorepo.
 
 * You're building lots of [Node.js](https://nodejs.org/en/) packages.
 * You're using a [Lerna](https://github.com/lerna/lerna) monorepo to help manage all your packages.
-* You really need Lerna's ability to link together all your package dependencies together.
+* You really need Lerna's ability to link together all your package dependencies.
 * But you're also missing all the things that distinct GitHub repos gave you:
   * Mixing private/public repos
   * A place for focused issues
@@ -47,13 +47,13 @@ Lerna-sync will take-on the work to clone/pull your separate GitHub repos and ke
 **You'll need to provide some GitHub credentials to hand, namely:**
 
 * Your GitHub **username**.
-* A [GitHub Access Token](https://github.com/settings/tokens)) associated with the provided **username**. Giving your token a description of "*Lerna Sync Access*" will be fine. This is necessary to avoid certain rate-limits and access private repos. Remember to keep tokens private and treat them as if they were passwords.
-* A name of a GitHub organization that your Lerna packages will be synchronized with (for example `wmfs`).
+* A **[GitHub Access Token](https://github.com/settings/tokens)** associated with the provided **username**. Giving your token a description of "*Lerna Sync Access*" will be fine. This is necessary to avoid certain rate-limits and access private repos. Remember to keep tokens private and treat them as if they were passwords.
+* A name of a GitHub **organization** that your Lerna packages will be synchronized with (for example `wmfs`).
 
 
 ## Routing function
 
-You may have many repos in your organization that shouldn't come anywhere near your monorepo and should be filtered away.
+You may have many GitHub repos in the organization you specify that shouldn't come anywhere near your monorepo.
 Also, you might like to take advantage of Lerna's support for multiple-package directories to help structure things a bit better.
 
 In **lerna-sync** this filtering/routing can be achieved via a simple Javascript function. Here's an example:
