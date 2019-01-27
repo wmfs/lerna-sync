@@ -1,7 +1,7 @@
 {
   "name": "@wmfs/lerna-sync",
   "version": "0.0.0-semantically-released",
-  "description": "A package to synchronize distributed repos inside a Lerna monorepo.",
+  "description": "A package to synchronize distributed GitHub repos inside a Lerna monorepo.",
   "author": "West Midlands Fire Service",
   "homepage": "https://github.com/wmfs/lerna-sync#readme",
   "keywords": [
