@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/lerna-sync/compare/v1.4.0...v1.5.0) (2019-01-28)
+
+
+### ✨ Features
+
+* Tagged to show-up inside of the tymly monorepo itself. ([5dd2357](https://github.com/wmfs/lerna-sync/commit/5dd2357))
+
 # [1.4.0](https://github.com/wmfs/lerna-sync/compare/v1.3.0...v1.4.0) (2019-01-28)
 
 
