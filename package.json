@@ -6,7 +6,9 @@
   "homepage": "https://github.com/wmfs/lerna-sync#readme",
   "keywords": [
     "lerna",
-    "monorepo"
+    "monorepo",
+    "tymly",
+    "package"
   ],
   "license": "MIT",
   "repository": {
