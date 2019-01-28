@@ -46,8 +46,7 @@
     "lint": "standard",
     "test": "nyc mocha && standard",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "semantic-release": "semantic-release",
-    "sync-tymly": "node scripts/sync-tymly.js"
+    "semantic-release": "semantic-release"
   },
   "config": {
     "commitizen": {
