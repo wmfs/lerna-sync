@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/wmfs/lerna-sync/compare/v1.3.0...v1.4.0) (2019-01-28)
+
+
+### ✨ Features
+
+* Remove traces of Tymly (moved to https://github.comi/wmfs/tymly). ([eead846](https://github.com/wmfs/lerna-sync/commit/eead846))
+
+
+### 📚 Documentation
+
+* Beginnings of some documentation. ([4e7492b](https://github.com/wmfs/lerna-sync/commit/4e7492b))
+* Fixes some documentation typos. ([07d302f](https://github.com/wmfs/lerna-sync/commit/07d302f))
+* Fixes some more documentation typos. ([c017798](https://github.com/wmfs/lerna-sync/commit/c017798))
+
 # [1.3.0](https://github.com/wmfs/lerna-sync/compare/v1.2.0...v1.3.0) (2019-01-27)
 
 
