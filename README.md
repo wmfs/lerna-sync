@@ -1,6 +1,6 @@
 # lerna-sync
 
-[![Build Status](https://travis-ci.com/wmfs/lerna-sync.svg?branch=master)](https://travis-ci.com/wmfs/lerna-sync)
+[![CircleCI](https://circleci.com/gh/wmfs/lerna-sync.svg?style=svg)](https://circleci.com/gh/wmfs/lerna-sync)
 
 A package to synchronize distributed GitHub repos inside a Lerna monorepo.
 
