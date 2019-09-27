@@ -1,3 +1,21 @@
+# [1.6.0](https://github.com/wmfs/lerna-sync/compare/v1.5.0...v1.6.0) (2019-09-27)
+
+
+### 🛠 Builds
+
+* **deps:** Update lodash version to 4.17.15 ([8a43c57](https://github.com/wmfs/lerna-sync/commit/8a43c57))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([76785e2](https://github.com/wmfs/lerna-sync/commit/76785e2))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([ab4ac03](https://github.com/wmfs/lerna-sync/commit/ab4ac03))
+* **travis:** Remove Travis config ([c1b3ee6](https://github.com/wmfs/lerna-sync/commit/c1b3ee6))
+
 # [1.5.0](https://github.com/wmfs/lerna-sync/compare/v1.4.0...v1.5.0) (2019-01-28)
 
 
