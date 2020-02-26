@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/wmfs/lerna-sync/compare/v1.6.0...v1.7.0) (2020-02-26)
+
+
+### ✨ Features
+
+* **lerna-sync:** standard fixes and clarify branches not on master when syncing ([ab4218d](https://github.com/wmfs/lerna-sync/commit/ab4218d9b0f3c6fd6e3f1e0b80e7e28131628d68))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.5 ([fd00331](https://github.com/wmfs/lerna-sync/commit/fd0033164cc0a913eaa39aa365b4f80a7b8ae982))
+* **deps-dev:** bump packages ([5899da1](https://github.com/wmfs/lerna-sync/commit/5899da12f452c4f841c8d8b27c2ac94db1e49129))
+
 # [1.6.0](https://github.com/wmfs/lerna-sync/compare/v1.5.0...v1.6.0) (2019-09-27)
 
 
