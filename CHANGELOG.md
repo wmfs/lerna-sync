@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/wmfs/lerna-sync/compare/v1.7.0...v1.8.0) (2020-07-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([feac419](https://github.com/wmfs/lerna-sync/commit/feac419348805fc7e670a59a5bb37363ad4fcfe6))
+* **deps-dev:** update semantic-release dev dependencies ([021239e](https://github.com/wmfs/lerna-sync/commit/021239ee4e903e1c63aae652a42aeecb5806ea63))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([ec28eb7](https://github.com/wmfs/lerna-sync/commit/ec28eb7b775457444ed878d4246c0e88b175f4e2))
+* **circle:** use updated circle node image [skip ci] ([6740b0b](https://github.com/wmfs/lerna-sync/commit/6740b0b1c06fb6c9c6fcbba8954aed04fb29bb3f))
+
 # [1.7.0](https://github.com/wmfs/lerna-sync/compare/v1.6.0...v1.7.0) (2020-02-26)
 
 
