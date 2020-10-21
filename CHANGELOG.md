@@ -1,3 +1,26 @@
+# [1.9.0](https://github.com/wmfs/lerna-sync/compare/v1.8.0...v1.9.0) (2020-10-21)
+
+
+### 🐛 Bug Fixes
+
+* breaking change in [@octokit](https://github.com/octokit)/graphql ([90bb6fa](https://github.com/wmfs/lerna-sync/commit/90bb6faa341400a44ed72b9de5f972e4909f44f6))
+
+
+### 🛠 Builds
+
+* **deps:** update all dependencies ([a4eff5b](https://github.com/wmfs/lerna-sync/commit/a4eff5b7bdb984ca16e443739f8f0820d45b16c4))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.1 ([b9483f4](https://github.com/wmfs/lerna-sync/commit/b9483f4d2ea535c7078736d3d1d1e0e30823d763))
+
+
+### 📦 Code Refactoring
+
+* standard linting ([fb1bfc1](https://github.com/wmfs/lerna-sync/commit/fb1bfc1a4dce77fac335b055945d61447d1a6f8e))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([3657fb8](https://github.com/wmfs/lerna-sync/commit/3657fb8a016b96b755a3b5dc97fd55acf46b7459))
+
 # [1.8.0](https://github.com/wmfs/lerna-sync/compare/v1.7.0...v1.8.0) (2020-07-20)
 
 
