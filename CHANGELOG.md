@@ -1,3 +1,18 @@
+## [1.9.1](https://github.com/wmfs/lerna-sync/compare/v1.9.0...v1.9.1) (2020-10-28)
+
+
+### 🐛 Bug Fixes
+
+* this.messages is not a function ([9b9ccee](https://github.com/wmfs/lerna-sync/commit/9b9ccee9c3bfbe29ca0c0814cd74a53ca784edfd))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([03e961b](https://github.com/wmfs/lerna-sync/commit/03e961bd4bf0668b613be934ff7e08109edc9f0a))
+* **circle:** cache dependencies [ch2770] ([8642825](https://github.com/wmfs/lerna-sync/commit/8642825ed775b67aa1f8d4f06026b3b29a0debe4))
+* **circle:** separate linting job [ch1009] ([2592063](https://github.com/wmfs/lerna-sync/commit/25920636485833f09df5e2414608af6ecf1c5c20))
+* **circle:** update build environment variable context name [ch2771] ([a64fd63](https://github.com/wmfs/lerna-sync/commit/a64fd637f55ae2269bed5993821f43556627f97b))
+
 # [1.9.0](https://github.com/wmfs/lerna-sync/compare/v1.8.0...v1.9.0) (2020-10-21)
 
 
