@@ -1,3 +1,24 @@
+# [1.10.0](https://github.com/wmfs/lerna-sync/compare/v1.9.1...v1.10.0) (2021-08-24)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency lodash to v4.17.21 [security] ([18e25a2](https://github.com/wmfs/lerna-sync/commit/18e25a23f625db65777bec706fa8eec5500736eb))
+* **deps-dev:** update dependency chai to v4.3.4 ([4d409c3](https://github.com/wmfs/lerna-sync/commit/4d409c3940d96adc73eacc895fa9190cf428e5b9))
+* **deps-dev:** update dependency codecov to v3.8.3 ([25d952a](https://github.com/wmfs/lerna-sync/commit/25d952a30bc25938477036d2590c4e60df899c43))
+* **deps-dev:** update dependency mocha to v8.4.0 ([6b0b6a4](https://github.com/wmfs/lerna-sync/commit/6b0b6a4b88e6d2dcfc39255842652aa68d9b47d8))
+* **deps-dev:** update dependency mocha to v9 ([e41c289](https://github.com/wmfs/lerna-sync/commit/e41c289b8c93f900386c55f2fe726102d6e6f2b8))
+* **deps-dev:** update dependency mocha to v9.1.0 ([f9d53c6](https://github.com/wmfs/lerna-sync/commit/f9d53c6e44c5c8a1ab78ce08d3da590ca252d0e3))
+* **deps-dev:** update dependency semantic-release to v17.2.3 [security] ([af1fa4b](https://github.com/wmfs/lerna-sync/commit/af1fa4be92bef793ebe1ecb3b2cf9c84ecc98fbd))
+* **deps-dev:** update dependency semantic-release to v17.4.4 ([302515f](https://github.com/wmfs/lerna-sync/commit/302515fe14dbc4eb8501a635d4f8e8fc16291bb0))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([8fbd018](https://github.com/wmfs/lerna-sync/commit/8fbd018ffd30cd41fe139fa5a30a61d708f4afe5))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([59911e5](https://github.com/wmfs/lerna-sync/commit/59911e59dfe648f80e3e06c1afe61716a8a2bc27))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([5f5ba4f](https://github.com/wmfs/lerna-sync/commit/5f5ba4fe1e74da2f9f591da1926371e55166a056))
+
 ## [1.9.1](https://github.com/wmfs/lerna-sync/compare/v1.9.0...v1.9.1) (2020-10-28)
 
 
