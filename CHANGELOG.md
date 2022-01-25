@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/wmfs/lerna-sync/compare/v1.11.0...v1.12.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency glob to v7.2.0 ([2bdbe29](https://github.com/wmfs/lerna-sync/commit/2bdbe298e915aca46c31e42dfa8ae4ba0ffa28d6))
+* **deps:** update dependency humanize-duration to v3.27.1 ([c275c59](https://github.com/wmfs/lerna-sync/commit/c275c59b44148b52151ebfd56432cc1a69c148f9))
+
 # [1.11.0](https://github.com/wmfs/lerna-sync/compare/v1.10.0...v1.11.0) (2022-01-25)
 
 
