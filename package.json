@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@octokit/graphql": "4.8.0",
-    "chalk": "4.1.0",
+    "chalk": "4.1.2",
     "dottie": "2.0.2",
     "git-repo-info": "2.1.1",
     "glob": "7.2.0",
