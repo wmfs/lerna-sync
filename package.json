@@ -29,7 +29,7 @@
     "git-repo-info": "2.1.1",
     "glob": "7.2.0",
     "humanize-duration": "3.27.1",
-    "jsonfile": "6.0.1",
+    "jsonfile": "6.1.0",
     "lodash": "4.17.21"
   },
   "devDependencies": {
