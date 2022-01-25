@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/wmfs/lerna-sync/compare/v1.13.0...v1.14.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency jsonfile to v6.1.0 ([256e70a](https://github.com/wmfs/lerna-sync/commit/256e70a792fc13f74ce334c76fe40fabeff73675))
+
 # [1.13.0](https://github.com/wmfs/lerna-sync/compare/v1.12.0...v1.13.0) (2022-01-25)
 
 
