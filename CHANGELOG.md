@@ -1,3 +1,23 @@
+# [1.11.0](https://github.com/wmfs/lerna-sync/compare/v1.10.0...v1.11.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([4257b58](https://github.com/wmfs/lerna-sync/commit/4257b585eee492963446faeb9ca3859374e44090))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([e8cf998](https://github.com/wmfs/lerna-sync/commit/e8cf9985cf1535aac7eae3ce685b372132728fb1))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([2d3b883](https://github.com/wmfs/lerna-sync/commit/2d3b883b6e0e0a9ea19efde8c61270f5c1cc2ef6))
+* **deps-dev:** update dependency mocha to v9.1.1 ([911907a](https://github.com/wmfs/lerna-sync/commit/911907a616304c3fd9e63c59b54530f385f96c60))
+* **deps-dev:** update dependency mocha to v9.1.2 ([7d0774d](https://github.com/wmfs/lerna-sync/commit/7d0774d4de73caa04f3a95db558e5b6acf5e888b))
+* **deps-dev:** update dependency mocha to v9.1.3 ([683c555](https://github.com/wmfs/lerna-sync/commit/683c555745e762bbc1156ffa2ae3d352e1257b45))
+* **deps-dev:** update dependency mocha to v9.1.4 ([b7cfaef](https://github.com/wmfs/lerna-sync/commit/b7cfaefdc28ef0002e31e7222d11675bc3cfc021))
+* **deps-dev:** update dependency mocha to v9.2.0 ([01cbef9](https://github.com/wmfs/lerna-sync/commit/01cbef9331fec13d87f68000b3acf81f6fa5ab31))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([694a7c0](https://github.com/wmfs/lerna-sync/commit/694a7c02c927372848b951a82674253dcfab203a))
+* **deps-dev:** update dependency semantic-release to v18 ([deee5b9](https://github.com/wmfs/lerna-sync/commit/deee5b976d7531e013353ecf77335bad96b9514e))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([130cd76](https://github.com/wmfs/lerna-sync/commit/130cd7679333b0fe060f22ebae55348c2d44bbfe))
+* **deps-dev:** update dependency semantic-release to v19 ([d9f94f0](https://github.com/wmfs/lerna-sync/commit/d9f94f07c4db4c1eee0279a3c13b2dbf13038c8c))
+* **deps-dev:** update semantic-release monorepo ([e749bba](https://github.com/wmfs/lerna-sync/commit/e749bba832017fc63e0c61e042edf1a2a73ce6c5))
+* **deps:** update dependency [@octokit](https://github.com/octokit)/graphql to v4.8.0 ([b16cdbb](https://github.com/wmfs/lerna-sync/commit/b16cdbb6e724852c1293b0fb5a5cfaa68372d12e))
+
 # [1.10.0](https://github.com/wmfs/lerna-sync/compare/v1.9.1...v1.10.0) (2021-08-24)
 
 
