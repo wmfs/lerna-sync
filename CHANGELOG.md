@@ -1,3 +1,25 @@
+# [1.15.0](https://github.com/wmfs/lerna-sync/compare/v1.14.0...v1.15.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency chai to v4.3.5 ([d18bbf0](https://github.com/wmfs/lerna-sync/commit/d18bbf01192c6c2dd3ad38ba77ac0fac948f4671))
+* **deps-dev:** update dependency chai to v4.3.6 ([3ac172c](https://github.com/wmfs/lerna-sync/commit/3ac172c9ec4a69c09667e661cd95d6f80a5cbaef))
+* **deps-dev:** update dependency mocha to v10 ([8f07f68](https://github.com/wmfs/lerna-sync/commit/8f07f685397d8d6ad83b2bcf7da9924d91fcbbb4))
+* **deps-dev:** update dependency mocha to v10.1.0 ([ab2f08a](https://github.com/wmfs/lerna-sync/commit/ab2f08a9891b1dcb2119d456ea93fe3fd0c5a7e6))
+* **deps-dev:** update dependency mocha to v9.2.1 ([47d99e2](https://github.com/wmfs/lerna-sync/commit/47d99e2cf3d47de46f3abfb1e2617b7187c31de4))
+* **deps-dev:** update dependency mocha to v9.2.2 ([a26b2bd](https://github.com/wmfs/lerna-sync/commit/a26b2bd13c52a2c2266b7965ddd30237b9513f92))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([ce9c027](https://github.com/wmfs/lerna-sync/commit/ce9c027f5165bc4135850872f16abdea4c7e75aa))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([99d8bee](https://github.com/wmfs/lerna-sync/commit/99d8bee31fc69913317d1e386244ce62e0cdeab7))
+* **deps-dev:** update dependency standard to v17 ([6714d36](https://github.com/wmfs/lerna-sync/commit/6714d366f06754a25139f37733a98762647bb411))
+* **deps:** update dependency [@octokit](https://github.com/octokit)/graphql to v5 ([2b67de2](https://github.com/wmfs/lerna-sync/commit/2b67de25a1afa64fe8fc4ef29e8e09e524e63e74))
+
+
+### 💎 Styles
+
+* standard --fix ([e5cd021](https://github.com/wmfs/lerna-sync/commit/e5cd021087d56c31fcb8b357386f833af88d4cb2))
+* standard --fix ([1a5841f](https://github.com/wmfs/lerna-sync/commit/1a5841fd606a7d41c47a9bbcbcecdffa4a98c6b3))
+
 # [1.14.0](https://github.com/wmfs/lerna-sync/compare/v1.13.0...v1.14.0) (2022-01-25)
 
 
