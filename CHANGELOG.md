@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/wmfs/lerna-sync/compare/v1.15.0...v1.16.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency humanize-duration to v3.27.3 ([afd369f](https://github.com/wmfs/lerna-sync/commit/afd369fc982de89ef2278d21b50ecd7adf7df57c))
+
 # [1.15.0](https://github.com/wmfs/lerna-sync/compare/v1.14.0...v1.15.0) (2022-11-02)
 
 
