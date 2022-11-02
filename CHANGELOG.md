@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/wmfs/lerna-sync/compare/v1.16.0...v1.17.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency glob to v7.2.3 ([a2a2bb3](https://github.com/wmfs/lerna-sync/commit/a2a2bb3c47b361144e1be42ddb78f262c992e4fb))
+
 # [1.16.0](https://github.com/wmfs/lerna-sync/compare/v1.15.0...v1.16.0) (2022-11-02)
 
 
