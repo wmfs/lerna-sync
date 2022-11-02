@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/wmfs/lerna-sync/compare/v1.17.0...v1.18.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency glob to v8 ([a5c3cb6](https://github.com/wmfs/lerna-sync/commit/a5c3cb6442dc836b4c5c11dc52012d016f6a7058))
+
 # [1.17.0](https://github.com/wmfs/lerna-sync/compare/v1.16.0...v1.17.0) (2022-11-02)
 
 
