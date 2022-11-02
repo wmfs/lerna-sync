@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/wmfs/lerna-sync/compare/v1.18.0...v1.19.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency chalk to v5 ([6e4fd30](https://github.com/wmfs/lerna-sync/commit/6e4fd30328534786edca7eea8a83df729a0cf052))
+
 # [1.18.0](https://github.com/wmfs/lerna-sync/compare/v1.17.0...v1.18.0) (2022-11-02)
 
 
