@@ -1,3 +1,29 @@
+## [1.20.1](https://github.com/wmfs/lerna-sync/compare/v1.20.0...v1.20.1) (2023-05-10)
+
+
+### 🐛 Bug Fixes
+
+* downgrade chalk, apply windows path fix [sc-19703] ([09c1863](https://github.com/wmfs/lerna-sync/commit/09c186367984caea445775ca5a325bff5bc58f24))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([701bc99](https://github.com/wmfs/lerna-sync/commit/701bc997b0704dc0ecbd7ffa6d689a8a6e5a5d32))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([69f856a](https://github.com/wmfs/lerna-sync/commit/69f856aa853fd7989e4d147aea894a1b35beecab))
+* **deps-dev:** update dependency chai to v4.3.7 ([a153597](https://github.com/wmfs/lerna-sync/commit/a15359725b91e7c37097aead08847dff7eb6c5df))
+* **deps-dev:** update dependency mocha to v10.2.0 ([4403d67](https://github.com/wmfs/lerna-sync/commit/4403d674ef11a4a24d36025ffaf30536ab6ce43e))
+* **deps-dev:** update dependency semantic-release to v20 ([687823c](https://github.com/wmfs/lerna-sync/commit/687823cc9c990fafcff3803deb11fccbf8306156))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([c843f0c](https://github.com/wmfs/lerna-sync/commit/c843f0cb7e50f7c0f4d3a3f1d3436e8df6c2e823))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([89ebf21](https://github.com/wmfs/lerna-sync/commit/89ebf21674a306147acbc9b9b37631bbe48c40a4))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([1dc975d](https://github.com/wmfs/lerna-sync/commit/1dc975dff8bb8468dbe1d428001f3d2482c307fc))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([1430a9b](https://github.com/wmfs/lerna-sync/commit/1430a9ba61f8af14a08efe00ac556cb6fc6411e4))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([e11bc23](https://github.com/wmfs/lerna-sync/commit/e11bc2334f77d455ee17cfba55de1ad0e78e12fc))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([500e1fa](https://github.com/wmfs/lerna-sync/commit/500e1fa97480e3ed3b8f515a5531e887f476bfbf))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([68511a3](https://github.com/wmfs/lerna-sync/commit/68511a3b67d8f694a44a46cd9c775b168ea0f7dc))
+* **deps-dev:** update dependency semantic-release to v21 ([b094001](https://github.com/wmfs/lerna-sync/commit/b0940012b45cc3dcd71512b043b0a0f54bbd0b3c))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([038787e](https://github.com/wmfs/lerna-sync/commit/038787e69b8763197056a3139d88de1bd9123122))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([745b63f](https://github.com/wmfs/lerna-sync/commit/745b63f9ff18e4c5a1358147788d0e2d148a5a80))
+
 # [1.20.0](https://github.com/wmfs/lerna-sync/compare/v1.19.0...v1.20.0) (2022-11-02)
 
 
