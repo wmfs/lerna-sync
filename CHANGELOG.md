@@ -1,3 +1,11 @@
+# [1.22.0](https://github.com/wmfs/lerna-sync/compare/v1.21.0...v1.22.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([7e344f3](https://github.com/wmfs/lerna-sync/commit/7e344f3142212529b782d5210a1c60d5185a6540))
+* **deps:** update dependency dottie to v2.0.4 [security] ([39c4bf2](https://github.com/wmfs/lerna-sync/commit/39c4bf2226cefc72b4f3fb819a8b74d228d0cd84))
+
 # [1.21.0](https://github.com/wmfs/lerna-sync/compare/v1.20.1...v1.21.0) (2023-06-07)
 
 
