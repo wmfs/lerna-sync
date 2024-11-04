@@ -1,3 +1,5 @@
+# [1.24.0](https://github.com/wmfs/lerna-sync/compare/v1.23.0...v1.24.0) (2024-11-04)
+
 # [1.23.0](https://github.com/wmfs/lerna-sync/compare/v1.22.0...v1.23.0) (2023-06-29)
 
 
