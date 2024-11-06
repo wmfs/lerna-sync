@@ -23,7 +23,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@octokit/graphql": "8.1.1",
+    "@octokit/graphql": "7.1.0",
     "chalk": "4.1.2",
     "dottie": "2.0.6",
     "git-repo-info": "2.1.1",
