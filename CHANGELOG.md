@@ -1,3 +1,13 @@
+## [1.32.0](https://github.com/wmfs/lerna-sync/compare/v1.31.0...v1.32.0) (2025-04-25)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency chai to v5.2.0 ([#145](https://github.com/wmfs/lerna-sync/issues/145)) ([444c408](https://github.com/wmfs/lerna-sync/commit/444c4081eebd06fcea71ead5d608c86ee00c0a11))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#143](https://github.com/wmfs/lerna-sync/issues/143)) ([06cafda](https://github.com/wmfs/lerna-sync/commit/06cafdae3b0b410d3e07a5bcf7edfca92cee8be1))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#144](https://github.com/wmfs/lerna-sync/issues/144)) ([ed2efd3](https://github.com/wmfs/lerna-sync/commit/ed2efd3f6986e5557594553642380f2c4f2989b7))
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#146](https://github.com/wmfs/lerna-sync/issues/146)) ([e213184](https://github.com/wmfs/lerna-sync/commit/e213184ab383945c01f9f67281dd04058dec0dfe))
+* **deps:** update dependency glob to v11.0.2 ([#147](https://github.com/wmfs/lerna-sync/issues/147)) ([06e4490](https://github.com/wmfs/lerna-sync/commit/06e4490d601c8aa1cba34a268eea307436fc6beb))
+
 ## [1.31.0](https://github.com/wmfs/lerna-sync/compare/v1.30.0...v1.31.0) (2025-01-10)
 
 ### Build system dependencies :hammer:
