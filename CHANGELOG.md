@@ -1,3 +1,10 @@
+## [1.33.0](https://github.com/wmfs/lerna-sync/compare/v1.32.0...v1.33.0) (2025-05-13)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.2.2 ([#148](https://github.com/wmfs/lerna-sync/issues/148)) ([66e4338](https://github.com/wmfs/lerna-sync/commit/66e4338b339fede44e9e54d5fd6bc2b467467a9f))
+* **deps:** update dependency humanize-duration to v3.32.2 ([#149](https://github.com/wmfs/lerna-sync/issues/149)) ([e9a7ad4](https://github.com/wmfs/lerna-sync/commit/e9a7ad478e2be5a1407ef1d1c72f5d708c449675))
+
 ## [1.32.0](https://github.com/wmfs/lerna-sync/compare/v1.31.0...v1.32.0) (2025-04-25)
 
 ### Build system dependencies :hammer:
