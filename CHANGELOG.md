@@ -1,3 +1,9 @@
+## [1.35.0](https://github.com/wmfs/lerna-sync/compare/v1.34.0...v1.35.0) (2025-06-16)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency humanize-duration to v3.33.0 ([#157](https://github.com/wmfs/lerna-sync/issues/157)) ([d3ab979](https://github.com/wmfs/lerna-sync/commit/d3ab9797e421a5a133684e3150e16e4e11db597b))
+
 ## [1.34.0](https://github.com/wmfs/lerna-sync/compare/v1.33.0...v1.34.0) (2025-06-13)
 
 ### Build system dependencies :hammer:
