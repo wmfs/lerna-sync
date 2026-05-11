@@ -30,7 +30,7 @@
     "glob": "11.1.0",
     "humanize-duration": "3.33.0",
     "jsonfile": "6.1.0",
-    "lodash": "4.17.21"
+    "lodash": "4.17.23"
   },
   "devDependencies": {
     "chai": "4.5.0",
