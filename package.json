@@ -37,7 +37,7 @@
     "codecov": "3.8.3",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "cz-conventional-changelog": "3.3.0",
-    "mocha": "11.7.5",
+    "mocha": "11.7.6",
     "nyc": "18.0.0",
     "semantic-release": "25.0.3",
     "standard": "17.1.2",
