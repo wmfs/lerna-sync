@@ -41,9 +41,9 @@
     "nyc": "18.0.0",
     "semantic-release": "25.0.8",
     "standard": "17.1.2",
-    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/changelog": "7.0.0",
     "@semantic-release/release-notes-generator": "14.1.1",
-    "@semantic-release/git": "10.0.1"
+    "@semantic-release/git": "11.0.0"
   },
   "scripts": {
     "lint": "standard",
