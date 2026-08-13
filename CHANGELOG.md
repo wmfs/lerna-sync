@@ -1,3 +1,5 @@
+## [1.37.1](https://github.com/wmfs/lerna-sync/compare/v1.37.0...v1.37.1) (2026-08-13)
+
 ## [1.37.0](https://github.com/wmfs/lerna-sync/compare/v1.36.0...v1.37.0) (2025-11-24)
 
 ### Build system dependencies :hammer:
