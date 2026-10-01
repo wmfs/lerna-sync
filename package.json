@@ -23,7 +23,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@octokit/graphql": "5.0.4",
+    "@octokit/graphql": "7.1.1",
     "chalk": "4.1.2",
     "glob": "11.1.0",
     "humanize-duration": "3.33.0",
