@@ -68,3 +68,61 @@ describe('mapLimit', () => {
     expect(await mapLimit(['a', 'b'], 2, async (x, i) => `${x}${i}`)).to.deep.equal(['a0', 'b1'])
   })
 })
+
+describe('git helper', () => {
+  const { git, tryGit } = require('../lib/utils/git')
+  const os = require('os')
+
+  // A git alias runs through sh, which Git for Windows also ships
+  const alias = command => ['-c', `alias.probe=!${command}`, 'probe']
+
+  it('resolves with trimmed stdout', async () => {
+    expect(await git(alias('printf "hello\\n\\n"'), os.tmpdir())).to.equal('hello')
+  })
+
+  it('kills a command that runs past the timeout', async () => {
+    let error
+    try {
+      await git(alias('sleep 5'), os.tmpdir(), { timeout: 300 })
+    } catch (e) {
+      error = e
+    }
+    expect(error.killed).to.equal(true)
+    expect(error.message).to.match(/timed out after 300ms/)
+  })
+
+  it('returns null from tryGit instead of throwing', async () => {
+    expect(await tryGit(alias('exit 1'), os.tmpdir())).to.equal(null)
+  })
+
+  describe('environment', () => {
+    const saved = {}
+    const keys = ['GIT_TERMINAL_PROMPT', 'GIT_SSH_COMMAND', 'GIT_SSH']
+
+    beforeEach(() => keys.forEach(k => { saved[k] = process.env[k]; delete process.env[k] }))
+    afterEach(() => keys.forEach(k => {
+      if (saved[k] === undefined) delete process.env[k]
+      else process.env[k] = saved[k]
+    }))
+
+    const envVar = name => git(alias(`printf %s "$${name}"`), os.tmpdir())
+
+    it('disables terminal credential prompts', async () => {
+      expect(await envVar('GIT_TERMINAL_PROMPT')).to.equal('0')
+    })
+
+    it('stops ssh prompting for passphrases or host keys', async () => {
+      expect(await envVar('GIT_SSH_COMMAND')).to.equal('ssh -o BatchMode=yes')
+    })
+
+    it('keeps a GIT_SSH_COMMAND the user already set', async () => {
+      process.env.GIT_SSH_COMMAND = 'ssh -i ~/.ssh/work_key'
+      expect(await envVar('GIT_SSH_COMMAND')).to.equal('ssh -i ~/.ssh/work_key')
+    })
+
+    it('does not change process.env itself', async () => {
+      await envVar('GIT_TERMINAL_PROMPT')
+      expect(process.env.GIT_TERMINAL_PROMPT).to.equal(undefined)
+    })
+  })
+})
