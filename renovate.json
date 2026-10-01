@@ -18,6 +18,10 @@
       "semanticCommitScope": "deps",
       "labels": ["dependencies"],
       "reviewers": ["team:tymly-reviewers"]
+    },
+    {
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "allowedVersions": "<10"
     }
   ],
     "vulnerabilityAlerts": {

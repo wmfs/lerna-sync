@@ -1,3 +1,17 @@
+## [1.38.0](https://github.com/wmfs/lerna-sync/compare/v1.37.1...v1.38.0) (2026-09-30)
+
+### Bug Fix(es) :bug:
+
+* Improve Lerna Sync for token rotation [sc-33781] ([#223](https://github.com/wmfs/lerna-sync/issues/223)) ([d2b4620](https://github.com/wmfs/lerna-sync/commit/d2b462065e3aafec41cdd6b68a00dd1f5cc87147))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#218](https://github.com/wmfs/lerna-sync/issues/218)) ([44c8bf5](https://github.com/wmfs/lerna-sync/commit/44c8bf5e7fed17dc164e3a92dc72d6bea3da5cd1))
+* **deps-dev:** update dependency mocha to v12 ([#219](https://github.com/wmfs/lerna-sync/issues/219)) ([b9d2024](https://github.com/wmfs/lerna-sync/commit/b9d2024150c3d362de492fa1f1c55c2602ef5e64))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#220](https://github.com/wmfs/lerna-sync/issues/220)) ([fb48530](https://github.com/wmfs/lerna-sync/commit/fb48530368707f474306bff9461d43fc57d5d3c8))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#221](https://github.com/wmfs/lerna-sync/issues/221)) ([34d2b48](https://github.com/wmfs/lerna-sync/commit/34d2b4821e57d620d43d9af1147171d477dbfe38))
+* **deps:** pin conventional-changelog-conventionalcommits below v10 ([836a4cf](https://github.com/wmfs/lerna-sync/commit/836a4cf86e254ae60875666d1ed724d4343796d6))
+
 ## [1.37.1](https://github.com/wmfs/lerna-sync/compare/v1.37.0...v1.37.1) (2026-08-13)
 
 ## [1.37.0](https://github.com/wmfs/lerna-sync/compare/v1.36.0...v1.37.0) (2025-11-24)
