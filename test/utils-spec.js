@@ -67,6 +67,14 @@ describe('mapLimit', () => {
   it('passes the index to the callback', async () => {
     expect(await mapLimit(['a', 'b'], 2, async (x, i) => `${x}${i}`)).to.deep.equal(['a0', 'b1'])
   })
+
+  for (const bad of [0, -1, 1.5, NaN, undefined, '4']) {
+    it(`rejects a limit of ${String(bad)}`, async () => {
+      let error
+      try { await mapLimit([1, 2], bad, async x => x) } catch (e) { error = e }
+      expect(error).to.be.instanceOf(RangeError)
+    })
+  }
 })
 
 describe('git helper', () => {

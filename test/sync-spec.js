@@ -1,6 +1,7 @@
 /* eslint-env mocha */
 
 const fs = require('fs')
+const os = require('os')
 const path = require('path')
 const { expect } = require('chai')
 const { Sandbox, git } = require('./helpers/git-sandbox')
@@ -96,4 +97,38 @@ describe('LernaSync.sync (end to end)', function () {
     expect(git(path.join(mono, 'plugins', existing.name), 'rev-parse', '--abbrev-ref', 'HEAD')).to.equal('feature/x')
     expect(output.text()).to.include('On branches (left alone) (1)')
   })
+})
+
+describe('LernaSync options', () => {
+  let dir
+
+  before(() => {
+    dir = fs.mkdtempSync(path.join(os.tmpdir(), 'lerna-sync-opts-'))
+    fs.writeFileSync(path.join(dir, 'lerna.json'), JSON.stringify({ packages: ['packages/*'] }))
+  })
+
+  after(() => fs.rmSync(dir, { recursive: true, force: true }))
+
+  const create = concurrency => new LernaSync({
+    monorepoPath: dir,
+    gitHubToken: 'not-used',
+    gitHubOrgName: 'wmfs',
+    lernaPackageRouterFunction: () => null,
+    concurrency
+  })
+
+  it('leaves concurrency unset when not given, so each stage uses its default', () => {
+    expect(create(undefined).concurrency).to.equal(undefined)
+    expect(create(null).concurrency).to.equal(undefined)
+  })
+
+  it('accepts a positive integer', () => {
+    expect(create(4).concurrency).to.equal(4)
+  })
+
+  for (const bad of [0, -2, 2.5, NaN, '4']) {
+    it(`rejects a concurrency of ${String(bad)}`, () => {
+      expect(() => create(bad)).to.throw(TypeError, /concurrency must be a positive integer/)
+    })
+  }
 })
