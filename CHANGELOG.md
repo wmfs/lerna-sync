@@ -1,3 +1,18 @@
+## [1.39.0](https://github.com/wmfs/lerna-sync/compare/v1.38.0...v1.39.0) (2026-10-22)
+
+### New Feature(s) :rocket:
+
+* [sc-33783] Improve Lerna Sync scalability ([#222](https://github.com/wmfs/lerna-sync/issues/222)) ([74ee189](https://github.com/wmfs/lerna-sync/commit/74ee189080c367190ae28c7c405158c310c94b14))
+* try new token approach ([#225](https://github.com/wmfs/lerna-sync/issues/225)) ([bff962d](https://github.com/wmfs/lerna-sync/commit/bff962d8ebdced954dd10833dc2e89edb63c7326))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v12.0.3 ([#224](https://github.com/wmfs/lerna-sync/issues/224)) ([c4ab8d3](https://github.com/wmfs/lerna-sync/commit/c4ab8d3f7adffd28be01616edc71422687a232f8))
+
+### CICD Configuration Changes :construction_worker:
+
+* new step in config.yml ([76154e6](https://github.com/wmfs/lerna-sync/commit/76154e6c6962dcd938d7d3c2e94019849251fe3a))
+
 ## [1.38.0](https://github.com/wmfs/lerna-sync/compare/v1.37.1...v1.38.0) (2026-09-30)
 
 ### Bug Fix(es) :bug:
