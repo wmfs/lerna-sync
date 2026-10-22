@@ -22,15 +22,15 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "@octokit/graphql": "5.0.4",
+    "@octokit/graphql": "7.1.1",
     "chalk": "4.1.2",
-    "dottie": "2.0.6",
-    "git-repo-info": "2.1.1",
     "glob": "11.1.0",
     "humanize-duration": "3.33.0",
-    "jsonfile": "6.1.0",
-    "lodash": "4.17.21"
+    "jsonfile": "6.1.0"
   },
   "devDependencies": {
     "chai": "4.5.0",
