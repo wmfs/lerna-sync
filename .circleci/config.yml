@@ -66,6 +66,26 @@ jobs:
           paths:
             - node_modules
       - run:
+          name: get github app token
+          command: |
+            node -e '
+              const crypto = require("crypto");
+              const key = Buffer.from(process.env.GH_APP_PRIVATE_KEY_B64, "base64").toString();
+              const b64 = o => Buffer.from(JSON.stringify(o)).toString("base64url");
+              const now = Math.floor(Date.now() / 1000);
+              const unsigned = b64({ alg: "RS256", typ: "JWT" }) + "." +
+                b64({ iat: now - 60, exp: now + 540, iss: process.env.GH_APP_ID });
+              const jwt = unsigned + "." + crypto.sign("RSA-SHA256", Buffer.from(unsigned), key).toString("base64url");
+              const headers = { Authorization: `Bearer ${jwt}`, Accept: "application/vnd.github+json" };
+              const repo = `${process.env.CIRCLE_PROJECT_USERNAME}/${process.env.CIRCLE_PROJECT_REPONAME}`;
+              (async () => {
+                const inst = await (await fetch(`https://api.github.com/repos/${repo}/installation`, { headers })).json();
+                const res = await (await fetch(`https://api.github.com/app/installations/${inst.id}/access_tokens`, { method: "POST", headers })).json();
+                if (!res.token) { console.error(inst, res); process.exit(1); }
+                console.log(`export GH_TOKEN=${res.token}`);
+              })();
+            ' >> "$BASH_ENV"
+      - run:
           name: release
           command: npx semantic-release
 workflows:
