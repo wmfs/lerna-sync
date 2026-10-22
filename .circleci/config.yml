@@ -83,6 +83,7 @@ jobs:
                 const res = await (await fetch(`https://api.github.com/app/installations/${inst.id}/access_tokens`, { method: "POST", headers })).json();
                 if (!res.token) { console.error(inst, res); process.exit(1); }
                 console.log(`export GH_TOKEN=${res.token}`);
+                console.log(`export GIT_CREDENTIALS=x-access-token:${res.token}`);
               })();
             ' >> "$BASH_ENV"
       - run:
