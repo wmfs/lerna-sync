@@ -103,6 +103,7 @@ workflows:
           context:
             - docker-hub-creds
             - build-env-vars
+            - github-app
           requires:
             - unit-test
             - lint
