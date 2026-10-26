@@ -1,13 +1,5 @@
 {
   "extends": [
     "github>wmfs/renovate-config"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "conventional-changelog-conventionalcommits"
-      ],
-      "allowedVersions": "<10"
-    }
   ]
 }
