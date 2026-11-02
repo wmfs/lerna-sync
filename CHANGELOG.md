@@ -1,3 +1,17 @@
+## [1.40.0](https://github.com/wmfs/lerna-sync/compare/v1.39.0...v1.40.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency humanize-duration to v3.35.0 ([#173](https://github.com/wmfs/lerna-sync/issues/173)) ([9194232](https://github.com/wmfs/lerna-sync/commit/919423212349b7022acaa688ac13fd4a1558b58b))
+
+### CICD Configuration Changes :construction_worker:
+
+* pin github-app-token orb to 1.0.0 ([56d197c](https://github.com/wmfs/lerna-sync/commit/56d197c751b3ce0ac2e09844194aec314c4e5b1a))
+* update release context for new github-app orb prep ([76e4efd](https://github.com/wmfs/lerna-sync/commit/76e4efd3d55760daf9541acdfd71e22cd5677b91))
+* use github-app-token orb for release token ([abd9c7c](https://github.com/wmfs/lerna-sync/commit/abd9c7cbf4b635c58b1cc89c76807dc5687a7a58))
+* use shared renovate preset [sc-34117] ([d2a2dd6](https://github.com/wmfs/lerna-sync/commit/d2a2dd642840d58a19cb890fb6bc3dd0291d69c1))
+* use shared renovate preset [sc-34117] ([#227](https://github.com/wmfs/lerna-sync/issues/227)) ([943a56e](https://github.com/wmfs/lerna-sync/commit/943a56e3f2545a6d18cf5ee3bd9a3c0cdd10948a))
+
 ## [1.39.0](https://github.com/wmfs/lerna-sync/compare/v1.38.0...v1.39.0) (2026-10-22)
 
 ### New Feature(s) :rocket:
