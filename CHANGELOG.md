@@ -1,3 +1,9 @@
+## [1.41.0](https://github.com/wmfs/lerna-sync/compare/v1.40.0...v1.41.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency jsonfile to v6.2.1 ([#166](https://github.com/wmfs/lerna-sync/issues/166)) ([3b9eeae](https://github.com/wmfs/lerna-sync/commit/3b9eeae454e45f09e9a28a349526d250704bfcba))
+
 ## [1.40.0](https://github.com/wmfs/lerna-sync/compare/v1.39.0...v1.40.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
