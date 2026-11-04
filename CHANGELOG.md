@@ -1,3 +1,9 @@
+## [1.41.1](https://github.com/wmfs/lerna-sync/compare/v1.41.0...v1.41.1) (2026-11-04)
+
+### Bug Fix(es) :bug:
+
+* retry GitHub GraphQL timeouts with smaller pages ([5914e57](https://github.com/wmfs/lerna-sync/commit/5914e57639d21c6ad26722badbc5640a4dee3385))
+
 ## [1.41.0](https://github.com/wmfs/lerna-sync/compare/v1.40.0...v1.41.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
