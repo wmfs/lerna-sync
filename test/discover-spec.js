@@ -68,9 +68,9 @@ describe('discover', () => {
 
     expect(repos.map(r => r.name)).to.deep.equal(['a', 'b', 'c', 'd'])
     expect(graphql.calls).to.deep.equal([
-      { org: 'wmfs', after: null },
-      { org: 'wmfs', after: 'cursor-1' },
-      { org: 'wmfs', after: 'cursor-2' }
+      { org: 'wmfs', after: null, first: 100 },
+      { org: 'wmfs', after: 'cursor-1', first: 100 },
+      { org: 'wmfs', after: 'cursor-2', first: 100 }
     ])
   })
 
@@ -124,5 +124,60 @@ describe('discover', () => {
       error = e
     }
     expect(error && error.message).to.equal('Bad credentials')
+  })
+
+  describe('when GitHub times out', () => {
+    const noSleep = async () => {}
+
+    function httpError (status) {
+      return Object.assign(new Error(`HTTP ${status}`), { status })
+    }
+
+    // Fails with the given errors first, then serves pages like fakeGraphql
+    function flakyGraphql (failures, pages) {
+      const inner = fakeGraphql(pages)
+      const calls = []
+      const fn = async (q, variables) => {
+        calls.push({ ...variables })
+        if (failures.length) throw failures.shift()
+        return inner(q, variables)
+      }
+      fn.calls = calls
+      return fn
+    }
+
+    it('retries the same page with half as many repos, and keeps the smaller size', async () => {
+      const graphql = flakyGraphql([httpError(502)], [[node('a')], [node('b')]])
+      const repos = await discover(graphql, 'wmfs', { sleep: noSleep })
+
+      expect(repos.map(r => r.name)).to.deep.equal(['a', 'b'])
+      expect(graphql.calls).to.deep.equal([
+        { org: 'wmfs', after: null, first: 100 },
+        { org: 'wmfs', after: null, first: 50 },
+        { org: 'wmfs', after: 'cursor-1', first: 50 }
+      ])
+    })
+
+    it('never asks for fewer than 10 repos per page', async () => {
+      const graphql = flakyGraphql([httpError(504), httpError(504), httpError(503)], [[node('a')]])
+      await discover(graphql, 'wmfs', { pageSize: 30, sleep: noSleep })
+      expect(graphql.calls.map(c => c.first)).to.deep.equal([30, 15, 10, 10])
+    })
+
+    it('gives up after 5 attempts', async () => {
+      const graphql = flakyGraphql(Array.from({ length: 5 }, () => httpError(502)), [[node('a')]])
+      let error
+      try { await discover(graphql, 'wmfs', { sleep: noSleep }) } catch (e) { error = e }
+      expect(error.status).to.equal(502)
+      expect(graphql.calls).to.have.length(5)
+    })
+
+    it('does not retry other errors', async () => {
+      const graphql = flakyGraphql([httpError(401)], [[node('a')]])
+      let error
+      try { await discover(graphql, 'wmfs', { sleep: noSleep }) } catch (e) { error = e }
+      expect(error.status).to.equal(401)
+      expect(graphql.calls).to.have.length(1)
+    })
   })
 })
