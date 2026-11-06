@@ -1,10 +1,10 @@
 // Builders for the plain records each stage passes to the next.
 // Defaults describe the "boring" case; tests override only what they care about.
 
-const chalk = require('chalk')
+const colours = require('../../lib/colours')
 
 // Keep assertions on output free of colour codes
-chalk.level = 0
+colours.enabled = false
 
 const router = pkg => {
   const keywords = pkg.keywords || []
