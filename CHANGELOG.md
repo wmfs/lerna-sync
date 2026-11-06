@@ -1,3 +1,13 @@
+## [1.42.0](https://github.com/wmfs/lerna-sync/compare/v1.41.1...v1.42.0) (2026-11-06)
+
+### Bug Fix(es) :bug:
+
+* replace chalk with Node's built-in util.styleText ([#229](https://github.com/wmfs/lerna-sync/issues/229)) ([0b7f3d7](https://github.com/wmfs/lerna-sync/commit/0b7f3d7a1d000031dde9134218dea69e3673c19a))
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency glob to v14 [security] ([#228](https://github.com/wmfs/lerna-sync/issues/228)) ([1b4294d](https://github.com/wmfs/lerna-sync/commit/1b4294d4cf9b707717a13d18039a09b623872652))
+
 ## [1.41.1](https://github.com/wmfs/lerna-sync/compare/v1.41.0...v1.41.1) (2026-11-04)
 
 ### Bug Fix(es) :bug:
