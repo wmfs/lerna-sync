@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@octokit/graphql": "7.1.1",
-    "glob": "14.0.4",
+    "glob": "14.0.6",
     "humanize-duration": "3.35.0",
     "jsonfile": "6.2.1"
   },
