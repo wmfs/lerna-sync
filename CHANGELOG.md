@@ -1,3 +1,9 @@
+## [1.44.0](https://github.com/wmfs/lerna-sync/compare/v1.43.0...v1.44.0) (2026-11-18)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency glob to v14.0.6 ([#233](https://github.com/wmfs/lerna-sync/issues/233)) ([e01ff09](https://github.com/wmfs/lerna-sync/commit/e01ff097ae0a6118623e6ad12e2dffad2ada152c))
+
 ## [1.43.0](https://github.com/wmfs/lerna-sync/compare/v1.42.0...v1.43.0) (2026-11-09)
 
 ### Build system dependencies :hammer:
